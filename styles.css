@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.Home {
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    width:100%;
+    min-height:200px;
+    top:0px;
+    left:0px;
+    background-color:whitesmoke; 
+    text-align: center;
+}
+
+.Home h1 {
+    padding-top:50px;
+    margin-bottom:0;
+    margin-top:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 47px;
+    
+}
+
+.Home hr {
+    align-items:center;
+    width: 80%;
+    margin-bottom:0px;
+    padding:0px;
+    margin-top: 0px;
+
+}
+
+.Home table {
+    padding-top:10px;
+    padding:0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    
+}
+
+@media (max-width: 336px) {
+    .Home table {
+      font-size: 10px;
+    }
+}
+
+.Announcements {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    min-height: 475px;
+    background-color: rgb(225,239,242);
+    text-align:center;
+}
+
+.Announcements h1 {
+    margin-top:0px;
+    padding-top: 6.5vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 36px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.Announcements h2 {
+    margin-top: 0px;
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 22px;
+}
+
+@media (max-width: 600px) {
+    .Announcements h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .Announcements h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 380px) {
+    .Announcements h2 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 300px) {
+    .Announcements h2 {
+        font-size: 15px;
+    }
+}
+
+.TblAndPic {
+    position: absolute;
+    min-height: 525x;
+    top: 675px;
+    width: 100%;
+
+}
+
+.image {
+    position: absolute;
+    min-height: 525px;
+    width: 50%;
+    background-image: url(photos/Mosque.jpg);
+    background-size: 100% 100%;
+    
+}
+
+
+.table-div {
+    position: absolute;
+    min-height: 525px;
+    left: 50%;
+    width: 50%;
+    background-color: 	hsl(0, 0%, 87%);
+}
+
+.table-content {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    min-height: 525px;
+    width: 22vw;
+    border-spacing: 0;
+    border-collapse:separate;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.table-content td {
+    padding: 1vw 1vw;
+    white-space: nowrap;
+}
+
+.table-content tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+@media (max-width: 1250px) {
+    .image {
+        visibility: hidden;
+    }
+    .table-div {
+        left: 0%;
+        width: 100%;
+    }
+    .table-content {
+        
+        width: 50vw;
+       
+    }
+}
+
+.Donations {
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    min-height: 275px;
+    text-align: center;
+    background-color: hsl(30, 100%, 96.5%);
+
+}
+
+.Donations h1 {
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top:0px;
+    padding-top: 6.5vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 36px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.Donations h2 {
+    text-align: left;
+    margin-left: 2.5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: .5%;
+}
+
+
+
+.Donations button {
+    height: 50px;
+    width: 100px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.ContactUs {
+    position: absolute;
+    top: 1475px;
+    width: 100%;
+    min-height: 125px;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.ContactUs h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.ContactUs h2 {
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.br {
+    size: 0px;
+}
+
+
+
+
+
+
