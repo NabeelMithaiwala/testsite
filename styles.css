@@ -15,7 +15,7 @@ body {
     min-height:200px;
     top:0px;
     left:0px;
-    background-color:whitesmoke; 
+    background-color:hsl(0, 0%, 90%);
     text-align: center;
 }
 
@@ -46,136 +46,259 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight:bold;
-    
 }
 
-@media (max-width: 336px) {
+.pageLinkOne {
+    text-decoration: none;
+    color:black;
+}
+
+.pageLinkOne:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 400px) {
     .Home table {
-      font-size: 10px;
+      font-size: 12px;
     }
 }
 
-.Announcements {
-    position: absolute;
-    top: 200px;
-    left: 0px;
-    width: 100%;
-    min-height: 475px;
-    background-color: rgb(225,239,242);
-    text-align:center;
+@media (max-width: 345px) {
+    .Home table {
+      font-size: 10px;
+    }
+
+    .Home h1 {
+        padding-top:30px;
+    }
 }
 
-.Announcements h1 {
+.prayerTimesFrame {
+    display:flex;  
+    border: none; 
+    height: 50vh;  
+    width: 100%;
+}
+
+.prayerTimes {
+    position:absolute;
+    top: 200px;
+    min-height: 475px;
+    width: 100%;
+}
+
+
+
+
+
+
+.Classes {
+    position: absolute;
+    top: 675px;
+    left: 0px;
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(225,239,242);
+}
+
+.Classes h1 {
     margin-top:0px;
-    padding-top: 6.5vh;
+    padding-top: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight:500;
     font-size: 36px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    text-align:center;
 }
-.Announcements h2 {
+
+
+
+
+
+
+.classLinksLeft ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.classLinksMiddle ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.classLinksRight ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.classLinks {
+    position: absolute;
+    top: 825px;
+    left: 0px;
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(225,239,242);
+}
+
+.classLinksLeft {
+    position: absolute;
+    height: 100%;
+    width: 34%;
+}
+
+
+.classLinksMiddle {
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    left: 34%;
+}
+
+.classLinksRight {
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    left: 67%;
+}
+
+.classLinksLeft h2 {
     margin-top: 0px;
-    padding-top: 3vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-top: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight:500;
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
 }
-
-@media (max-width: 600px) {
-    .Announcements h2 {
-        font-size: 20px;
-    }
-}
-@media (max-width: 480px) {
-    .Announcements h2 {
-        font-size: 18px;
-    }
-}
-@media (max-width: 380px) {
-    .Announcements h2 {
-        font-size: 16px;
-    }
-}
-@media (max-width: 300px) {
-    .Announcements h2 {
-        font-size: 15px;
-    }
-}
-
-.TblAndPic {
-    position: absolute;
-    min-height: 525x;
-    top: 675px;
-    width: 100%;
-
-}
-
-.image {
-    position: absolute;
-    min-height: 525px;
-    width: 50%;
-    background-image: url(Photos/Mosque.jpg);
-    background-size: 100% 100%;
-    
-}
-
-
-.table-div {
-    position: absolute;
-    min-height: 525px;
-    left: 50%;
-    width: 50%;
-    background-color: 	hsl(0, 0%, 87%);
-}
-
-.table-content {
+.classLinksLeft h3 {
+    margin-top: 0px;
     font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.classLinksMiddle h2 {
+    margin-top: 0px;
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+.classLinksMiddle h3 {
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.classLinksRight h2 {
+    margin-top: 0px;
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+.classLinksRight h3 {
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.classLinksLeftTwo ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.classLinksMiddleTwo ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.classLinksRightTwo ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.classLinksTwo {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 0px;
+    background-color: rgb(225,239,242);
+}
+
+.classLinksLeftTwo {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.classLinksRightTwo {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+}
+
+.classLinksLeftTwo h2 {
+    margin-top: 0px;
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
     font-size: 16px;
-    min-height: 525px;
-    width: 22vw;
-    border-spacing: 0;
-    border-collapse:separate;
-    text-align: left;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: white;
-    margin: 0 auto;
+    text-align: center;
+}
+.classLinksLeftTwo h3 {
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    text-align: center;
 }
 
-.head {
-    font-weight: bold;
+.classLinksRightTwo h2 {
+    margin-top: 0px;
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    text-align: center;
+}
+.classLinksRightTwo h3 {
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    text-align: center;
 }
 
-.table-content td {
-    padding: 1vw 1vw;
-    white-space: nowrap;
-}
 
-.table-content tr:nth-child(odd) {
-    background-color: whitesmoke;
-}
 
-@media (max-width: 1250px) {
-    .image {
-        visibility: hidden;
-    }
-    .table-div {
-        left: 0%;
-        width: 100%;
-    }
-    .table-content {
-        
-        width: 50vw;
-       
-    }
-}
 
 .Donations {
     position: absolute;
-    top: 1200px;
+    top: 1625px;
     width: 100%;
     min-height: 275px;
     text-align: center;
@@ -206,18 +329,9 @@ body {
     padding-bottom: .5%;
 }
 
-
-
-.Donations button {
-    height: 50px;
-    width: 100px;
-    margin-top: 3%;
-    text-align: center;
-}
-
 .ContactUs {
     position: absolute;
-    top: 1475px;
+    top: 1900px;
     width: 100%;
     min-height: 125px;
     background-color: hsl(0, 0%, 20%);
@@ -233,12 +347,214 @@ body {
     margin-top: 9px;
 }
 
-.br {
-    size: 0px;
+
+
+
+@media (max-width: 950px) {
+
+    .classLinksLeft h2 {
+        font-size: 18px;
+    }
+    .classLinksLeft h3 {
+        font-size: 18px;
+        
+    }
+    .classLinksMiddle h2 {
+        font-size: 18px;
+    }
+    .classLinksMiddle h3 {
+        font-size: 18px;
+    }
+    .classLinksRight h2 {
+        font-size: 18px;
+    }
+    .classLinksRight h3 {
+        font-size: 18px;
+    }
+    .classLinks {
+        min-height: 700px;
+    }
+    .Donations {
+        top: 1525px;
+    }
+    .ContactUs {
+        top: 1800px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .classLinksLeft h2 {
+        font-size: 16px;
+    }
+    .classLinksLeft h3 {
+        font-size: 16px;
+        
+    }
+    
+    .classLinksMiddle h2 {
+        font-size: 16px;
+    }
+    .classLinksMiddle h3 {
+        font-size: 16px;
+    }
+    
+    .classLinksRight h2 {
+        font-size: 16px;
+    }
+    .classLinksRight h3 {
+        font-size: 16px;
+    }
+    .classLinks {
+        min-height: 700px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .classLinksLeft h2 {
+        font-size: 14px;
+    }
+    .classLinksLeft h3 {
+        font-size: 14px;
+        
+    }
+    
+    .classLinksMiddle h2 {
+        font-size: 14px;
+    }
+    .classLinksMiddle h3 {
+        font-size: 14px;
+    }
+    
+    .classLinksRight h2 {
+        font-size: 14px;
+    }
+    .classLinksRight h3 {
+        font-size: 14px;
+    }
+    .classLinks {
+        min-height: 550px;
+    }
+    .Donations {
+        top: 1375px;
+    }
+    .ContactUs {
+        top: 1650px;
+    }
+}
+
+@media (max-width: 600px) {
+
+  
+    .classLinksTwo {
+        visibility: visible;
+        top: 1675px;
+        min-height: 800px;
+    }
+
+    .classLinks {
+        visibility: hidden;
+        min-height: 0px;
+        top: 0px;
+    }
+    .prayerTimesFrame {
+        height: 155vh;  
+    }
+    .Classes {
+        top: 1525px;
+    }
+    .Donations {
+        top: 2475px;
+    }
+    .ContactUs {
+        top: 2750px;
+    }
+
 }
 
 
+@media (max-width: 475px) {
 
+    .classLinksLeftTwo h2 {
+        font-size: 14px;
+    }
+    .classLinksLeftTwo h3 {
+        font-size: 14px;
+        
+    }
+    .classLinksMiddleTwo h2 {
+        font-size: 14px;
+    }
+    .classLinksMiddleTwo h3 {
+        font-size: 14px;
+    }
+    
+    .classLinksRightTwo h2 {
+        font-size: 14px;
+    }
+    .classLinksRightTwo h3 {
+        font-size: 14px;
+    }
+    .classLinksTwo {
+        min-height: 700px;
+    }
+    .Donations {
+        top: 2375px;
+    }
+    .ContactUs {
+        top: 2650px;
+    }
+}
 
+@media (max-width: 410px) {
 
+    .classLinksLeftTwo h2 {
+        font-size: 13px;
+    }
+    .classLinksLeftTwo h3 {
+        font-size: 13px;
+        
+    }
+    .classLinksMiddleTwo h2 {
+        font-size: 13px;
+    }
+    .classLinksMiddleTwo h3 {
+        font-size: 13px;
+    }
+    
+    .classLinksRightTwo h2 {
+        font-size: 13px;
+    }
+    .classLinksRightTwo h3 {
+        font-size: 13px;
+    }
+    .classLinksTwo {
+        min-height: 700px;
+    }
 
+}
+
+@media (max-width: 375px) {
+
+    .classLinksLeftTwo h2 {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    .classLinksLeftTwo h3 {
+        font-size: 12px;
+        
+    }
+    .classLinksRightTwo h2 {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    .classLinksRightTwo h3 {
+        font-size: 12px;
+    }
+    .classLinksTwo {
+        min-height: 700px;
+    }
+
+}
